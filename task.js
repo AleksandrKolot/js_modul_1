@@ -1,28 +1,15 @@
-// let base = prompt('давай число');
-// base = Number(base);
+const userPassword = 'jqueryismyjam';
 
-// console.log(base);
+const ADMIN_PASSWORD = 'jqueryismyjam';
 
-// let power = prompt('давай степень');
-// power = Number(power);
-// console.log(power);
+const CANCELED_BY_USER = 'Отменено пользователем!';
+const ACCESS_IS_ALLOWED = 'Добро пожаловать!';
+const ACCESS_DENIED = 'Доступ запрещен, неверный пароль!';
+let message;
 
-// const result = base ** power;
-// console.log(result);
-// let clientCounter = 18;
-// const maxClients = 25;
+// Write code under this line
+if (userPassword === null) {
+  message = 'Отменено пользователем';
+}
 
-// while (clientCounter <= maxClients) {
-//   console.log(clientCounter);
-//   clientCounter += 1;
-// }
-
-// const number = 10;
-// Number('25px'
-// // for (let i = 0; i < number; i += 1) {
-// //   if (i % 2 === 0) {
-// //     continue;
-// //   }
-
-console.log(10 + 20 + '30');
-// }
+console.log(message);
